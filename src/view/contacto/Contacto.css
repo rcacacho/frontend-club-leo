@@ -1,0 +1,32 @@
+.piePagina{
+    background-color: rgb(255, 208, 0);
+  }
+  
+  .bi-twitter{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .bi-facebook{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .bi-instagram{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .bi-linkedin{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .bi-tiktok{
+    width: 30px;
+    height: 30px;
+  }
+
+  #titteblue{
+    color: rgb(0, 0, 251);
+  }

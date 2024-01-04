@@ -1,0 +1,47 @@
+.imagenesTamAb{
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenesTamAb2{
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.imagenesTamAb3{
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#azul{
+  color: rgb(0, 179, 255);
+}
+
+#rojo{
+  color: rgb(224, 11, 11);
+}
+
+#colorred{
+  color:brown;
+}
+
+#padding{
+  padding-left:3%;
+  padding-right: 3%;
+}

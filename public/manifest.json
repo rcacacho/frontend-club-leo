@@ -1,0 +1,24 @@
+{
+  "background_color": "#ffffff",
+  "categories": ["business", "finance", "shopping"],
+  "description": "Pwa Mingga",
+  "dir":"ltr",
+  "display_override": ["standalone", "fulllscreen"],
+  "display":"standalone",
+  "icons":[
+    {
+      "src":"mingga.png",
+      "sizes":"212x212",
+      "type":"image/png",
+      "purpose":"any"
+    }
+  ],
+  "lang":"es-MX",
+  "name":"Mingga",
+  "orientation": "portrait",
+  "prefer_related_application": false,
+  "scope":"/",
+  "short_name":"Mingga",
+  "start_url":"/",
+  "theme_color":"orange"
+}

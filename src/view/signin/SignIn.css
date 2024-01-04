@@ -1,0 +1,34 @@
+#encabezado{
+    background-color: #b1b2b3;
+}
+
+#registroLoggin{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text{
+    font-size: small;
+}
+
+.password{
+        font-size: small;
+}
+
+.mingga{
+    color: rgb(198, 15, 15);
+}
+
+.welcome{
+    font-size:x-large;
+}
+
+.textError{
+    color:red
+}
