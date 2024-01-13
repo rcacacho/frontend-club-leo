@@ -36,6 +36,7 @@ export const getOfertsByCity = async (id) => {
 }
 
 
+/*
 export const getCategoryService = async (cityId, categoryId) =>{
     try {
         // api.setHeader('Authorization', `Bearer ${token}`)
@@ -47,3 +48,4 @@ export const getCategoryService = async (cityId, categoryId) =>{
         return [`${error}`];
     }
 }
+*/

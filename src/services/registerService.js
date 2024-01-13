@@ -57,6 +57,7 @@ export const getAdditionalType = async(id) =>{
     }
 }
 
+/*
 export const getCategories = async()=>{
     try {
         const categories = await api.get(`/resources/categories`)
@@ -67,7 +68,7 @@ export const getCategories = async()=>{
         return [`${error}`]
     }
 }
-
+*/
 export const getDocumentType = async(country, type) =>{
     try {
         const documentType = await api.get(`/resources/documentTypes?CountryId=${country}&PersonTypeId=${type}`)
