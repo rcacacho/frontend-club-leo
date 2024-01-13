@@ -13,13 +13,13 @@ export default function Category() {
     const idCity= useSelector(state=>state.IDCityReducer?.id)
     const [infoGet, setInfoGet] = useState([])
 
-    async function getInfoUser(){
-        const info = await getCategoryService(idCity, id)
-        setInfoGet(info.data)
-    }
+    //async function getInfoUser(){
+     //   const info = await getCategoryService(idCity, id)
+     //   setInfoGet(info.data)
+    //}
 
     useEffect(() => {
-        getInfoUser();
+       // getInfoUser();
         // eslint-disable-next-line
     }, []);
 
