@@ -1,5 +1,5 @@
 const environment = {
-    baseApiUrl: 'https://biblioleo-700ad891664c.herokuapp.com'
+    baseApiUrl: 'https://mingga-ff62aecb8180.herokuapp.com/'
 }
 
 export default environment;

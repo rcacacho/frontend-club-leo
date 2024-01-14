@@ -30,7 +30,6 @@ export const getOfertsByCity = async (id) => {
         if (userUpdated.data != null) {
             return userUpdated.data;
         }
-
     } catch (error) {
         console.log("Something went wrong...");
         console.log(error);

@@ -19,7 +19,7 @@ export default function Home() {
 
     async function countries (){
         const [categories, ofertas,country] = await Promise.all([
-            getCategories(),
+            //getCategories(),
             getOfertsByCity(id),
             getCountries(),
         ]
