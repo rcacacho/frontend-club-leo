@@ -7,7 +7,7 @@ import transactionsReducer from './transactionsReducer'
 import descendentsReducer from './descendentsReducer'
 import categoriesReducer from './categoriesReducer'; 
 import ofertsCategoriesReducer from './ofertsCategoriesReducer'
-import IDCityReducer from './IDCityReducer';
+//import IDCityReducer from './IDCityReducer';
 
 export default combineReducers({
     countriesReducer,
@@ -17,5 +17,5 @@ export default combineReducers({
     descendentsReducer,
     categoriesReducer,
     ofertsCategoriesReducer,
-    IDCityReducer,
+    //IDCityReducer,
 })
