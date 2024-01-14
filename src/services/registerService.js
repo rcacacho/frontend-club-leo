@@ -62,7 +62,9 @@ export const getAdditionalType = async (id) => {
 export const getCategories = async () => {
     try {
         const categories = await api.get(`/resources/categories`)
-        return categories.data
+        if (categories.data != null) {
+            return categories.data
+        }
     } catch (error) {
         console.log("Algo malo ocurrio");
         console.log(error);
