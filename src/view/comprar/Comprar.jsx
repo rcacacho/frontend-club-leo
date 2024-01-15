@@ -68,7 +68,7 @@ export default function Comprar() {
             </div>
           </div>)}
           {id>0 && offer.length===0 && <></>} */}
-          {ofertas.length>0?ofertas?.map(item=>
+          {/*ofertas.length>0?ofertas?.map(item=>
           <div className="col" key={item.id}>
             <div className="card">
               <a href={`https://${item.url}`} target="_blank" rel="noreferrer" >
@@ -79,7 +79,7 @@ export default function Comprar() {
               </div>
             </div>
           </div>)
-          :<></>}
+          :<></> */}
 
         
       </div>     

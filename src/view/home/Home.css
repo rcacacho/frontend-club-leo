@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+body  {
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/217/938/desktop-wallpaper-reading-books-backgrounds.jpg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:2000px; }
+to {background-position: -0px -500px;background-size: 2400px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:2000px; }
+to {background-position: -0px -500px;background-size: 2400px;}
+
+}
+
+
+
+
+
+
+#paginaprincipal{
+    padding-left:4%;
+    padding-right: 4%;
+    
+}
+
+#color{
+    color: black;
+}
+
+#margin{
+    margin: 0;
+    padding: 0;
+}
+
+#photo{
+    height: 100%;
+    width: 100%;
+    border: 0;
+    
+}
+
+
+#titulo{
+    color: SteelBlue;
+    
+}
+
+
