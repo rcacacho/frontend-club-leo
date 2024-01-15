@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import Spinner from 'react-bootstrap/Spinner';
 import { getAdditionalType, getCities, getCountries, getDocumentType, getPersonType, register } from '../../services/registerService'
 import { Link, useNavigate } from 'react-router-dom';
-import logonegro from '../../assets/png/logoempresarialnegro.png'
+import logo from '../../assets/logoleo.png'
 import "./SignUp.css"
 import Select from "react-select"
 import Contacto from '../contacto/Contacto';
@@ -595,7 +595,7 @@ export default function SignUp() {
             <nav className="navbar navbar-light mb-5" id="encabezado">
                 <Link to="/" className="container-fluid">
                     <img
-                    src={logonegro}
+                    src={logo}
                     width="290"
                     height="550"
                     className="img-fluid d-block mx-auto"

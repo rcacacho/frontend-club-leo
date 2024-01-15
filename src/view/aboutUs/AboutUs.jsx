@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUs.css"
-import logonegro from '../../assets/png/logoempresarialnegro.png'
+import logo from '../../assets/logoleo.png'
 import Contacto from '../contacto/Contacto';
 import { Link } from "react-router-dom";
 
@@ -18,7 +18,7 @@ export default function AboutUs() {
        <nav className="navbar navbar-light mb-5" id="encabezado">
                 <Link to="/" className="container-fluid">
                     <img
-                    src={logonegro}
+                    src={logo}
                     width="290"
                     height="550"
                     className="img-fluid d-block mx-auto"

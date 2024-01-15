@@ -1,7 +1,7 @@
 import banner1 from "../../assets/banner1.jpg";
 import banner2 from "../../assets/banner2.jpg";
 import banner3 from "../../assets/banner3.jpg";
-import logo from "../../assets/logoleo.png";
+import logo from '../../assets/logoleo.png'
 import { Link } from "react-router-dom";
 import "./Home.css"
 
@@ -118,7 +118,7 @@ export default function Home() {
               
               
     </div >
-    <br />
+    
     
 
 
@@ -128,22 +128,22 @@ export default function Home() {
           <Link to="httpS://www.vamosaleer.co/" className="navbar-brand">
           <h4> <b>   Vamos a leer </b></h4>
           </Link>
-          <Link to="/SignUp" className="navbar-brand">
+          <Link to="/" className="navbar-brand">
           <h4><b> Librería </b></h4>
           </Link>
-          <Link to="/SignIn" className="navbar-brand">
+          <Link to="/" className="navbar-brand">
           <h4> <b>   Aliados </b></h4>
           </Link>
-          <Link to="http://mingga.org/" className="navbar-brand">
+          <Link to="/" className="navbar-brand">
           <h4><b> Educación </b></h4>
           </Link>
-          <Link to="/AboutUs" className="navbar-brand">
+          <Link to="/" className="navbar-brand">
           <h4> <b>   Bibliotecas </b></h4>
           </Link>
-          <Link to="/AboutUs" className="navbar-brand">
+          <Link to="/" className="navbar-brand">
           <h4> <b>   Demo </b></h4>
           </Link>
-          <Link to="/AboutUs" className="navbar-brand">
+          <Link to="/" className="navbar-brand">
           <h4> <b>   Videos </b></h4>
           </Link>
         </div>
@@ -184,7 +184,7 @@ export default function Home() {
 
     <div className="col-sm-12 col-md-4 col-lg-4 col-sm-4 col-xl-4 col-xxl-4" id="margin">
       <div className="card" id="photo">
-      <Link to="/">
+      <Link to="/SignUp">
       <img
             className="img-fluid"
             src={banner3}
