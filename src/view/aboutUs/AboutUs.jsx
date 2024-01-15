@@ -1,21 +1,17 @@
 import React from "react";
 import "./AboutUs.css"
-import logo from '../../assets/logoleo.png'
-import Contacto from '../contacto/Contacto';
+import logo from "../../assets/logoleo.png";
 import { Link } from "react-router-dom";
 
-import nosotros1 from "../../assets/contenido/nosotros1.jpg";
-import nosotros2 from "../../assets/contenido/nosotros2.jpg";
-import nosotros3 from "../../assets/contenido/nosotros3.jpg";
-import nosotros4 from "../../assets/contenido/nosotros4.jpg";
-import nosotros5 from "../../assets/contenido/nosotros5.jpg";
+import aboutus from "../../assets/contenido/aboutus.jpg";
+
 
 
 
 export default function AboutUs() {
   return (
-    <div className="contenedor-aboutus">
-       <nav className="navbar navbar-light mb-5" id="encabezado">
+    <div className="contenedor-joinus" id="padding">
+      <nav className="navbar navbar-light mb-5" id="encabezado">
                 <Link to="/" className="container-fluid">
                     <img
                     src={logo}
@@ -27,134 +23,154 @@ export default function AboutUs() {
                 </Link>
             </nav>
 
-            <div className="container-fluid">
-              <div className="nosotros" align="left" id="padding">
+            <div className="container-fluid" align="left">
 
-                <h3 align="center" id="azul"> <b>Programa de Referidos</b> </h3>
-                <br />
-                <h3 align="center" id="azul"><i><b>"No somos clientes, somos socios: <br />
-                compramos lo que necesitamos, pero siempre ganando"</b></i>
-                </h3>
-                <br />
-                <br />
+            <h3 id="titulo" align="center"> <b>Leer y escribir bien, las competencias fundamentales para ser exitosos <br />
+            en la moderna sociedad mundial  de la información y el conocimiento
+          </b> 
+          </h3>
 
-                <div className="imagenesTamAb">
-                <img align="center"
-                className="d-block w-200"
-                height="250"
-                src={nosotros1}
-                alt="..."
-                />
-                </div> <br /> 
+          <br />
+          <div className="imagenesTam">
+            <img
+            className="d-block w-100"
+            src={aboutus}
+            height="250"
+            width="400"
+            alt="..."
+            />
+            </div>
+
+            <br />
+
+            <h3 id="titulo" align="center"> <b>Nosotros <br />
+          </b> 
+          </h3>
+          <br />
+          <p>
+          Hay una ley universal del desarrollo: todo progreso y bienestar de la sociedad, depende de la calidad de la educación que recibe la población. Por ello, los países más desarrollados, tienen como prioridad contar con sistemas educativos con cobertura universal, calidad y pertinencia, que mantengan y fortalezcan la competitividad de sus trabajadores.
+          </p>
+          <p>
+          LEO - Club Mundial de Lectura, es una asociación sin ánimo de lucro cuya misión es promover la lectura, la escritura y el multilingüismo, como hábitos que contribuyen al mejoramiento educativo y cultural de las personas, familias y comunidades, mejoran la calidad del sistema educativo y coadyuvan a la construcción de sociedades más democráticas, pacíficas y progresistas.
+          </p>
+          <p>
+          Para cumplir esta misión, queremos impulsar una gran comunidad de instituciones educativas y personas comprometidas con construir un mundo mejor, a partir de mejorar el pilar clave del desarrollo: la educación, que depende fundamentalmente de la lectura, por excelencia el camino para adquirir los conocimientos y capacidades en las diferentes áreas.
+          </p>
+          <p>
+          Con este fin, LEO opera como una gran red mundial soportada en internet, que permite integrar todos los países y ciudades del mundo, y ofrecer servicios que llegan en tiempo real a todos los usuarios, con una gran eficiencia y economía que nos beneficia a todos.
+          </p>
+          <br />
+
+          <h3 id="titulo" align="center"> <b>Misión <br />
+          </b> 
+          </h3> 
+          <br />
+          <p>
+          Trabajamos en el país y el mundo para promover y masificar la lectura y escritura, como hábitos para aumentar el nivel educativo y cultural de las personas, familias y comunidades y mejorar sus competencias comunicativas en el contexto de la moderna sociedad de la información y el conocimiento, conectada a nivel global por internet. 
+          </p>
+                
+          <br />
+
+          <h3 id="titulo" align="center"> <b>Objetivos <br />
+          </b> 
+          </h3> 
+          <br />      
+          <p>
+          •	Aumentar el número de personas que leen y escriben como actividad cotidiana en los diferentes escenario académicos, laborales y sociales. <br />
+
+          •	Incrementar los índices de lectura, para lograr que las personas lean al menos un libro al mes, doce libros al año. <br />
+ 
+          •	Ofrecer escenarios para que las personas escriban y publiquen sus obras en los diferentes géneros, dándolas a conocer en el país y el mundo, con énfasis en la comunidad académica. <br />
+
+          •	Promover el multilingüismo y las competencias comunicativas de las personas, para mejorar sus posibilidades de participación y éxito en la moderna sociedad tecnológica, a través de internet. <br />
+
+          •	Fortalecer a las familias y las instituciones educativas como escenarios básicos para inculcar y fortalecer las competencias lecto-escritoras de los estudiantes.
+
+          </p>
+
+          <br />
+
+          <h3 id="titulo" align="center"> <b>Asociados <br />
+          </b> 
+          </h3> 
+          <br />  
+          <p>
+            
+          El Club Mundial de Lectura es una comunidad digital con cobertura mundial. Pueden ser socios de LEO en los diferentes países y ciudades: <br />
+          •	Las personas (mayores de 14 años). <br />
+          •	Las instituciones educativas y organizaciones sociales sin ánimo de lucro.
+
+          </p>
+          <p>
+          
+          La membresía (ingreso y permanencia como socios por un año) tiene un costo de solo $50.000, que otorga el acceso libre y gratuito a los programas educativos y culturales del Club (biblioteca digital, publicar obras, vender obras, etc).
+
+          </p>
+          <p>
+          Adicionalmente, los socios LEO pueden contribuir a su crecimiento en todo el mundo, invitando a ingresar al Club a nuevos socios, lo que les permitirá obtener ingresos importantes y permanentes que mejoren su calidad de vida personal y familiar.
+          </p>
+
+          <br />
+
+          <h3 id="titulo" align="center"> <b>Programas y Servicios a los Asociados<br />
+          </b> 
+          </h3> 
+          <br />  
+          <p>
+
+          </p>
+          <p>
+
+          </p>
+          <p>
+            
+         LEO ha desarrollado herramientas pedagógicas con tecnologías web, que permiten en forma eficiente y económica promover y masificar la lectura, la escritura y el multilingüismo como competencias clave para facilitar la participación y protagonismo de nuestros socios en la moderna sociedad de la información y el conocimiento soportado en internet, que demandan competencias comunicativas crecientes para lograr que las personas aprovechen las oportunidades de contactos, educación y negocios a nivel mundial <br />
+
+        LEO ofrece a sus asociados los siguientes servicios totalmente gratuitos:
+
+          </p>
+          <h5 id="titulo" align="center"> <b>1. Promoción de la Lectura y el Multilingüismo<br />
+          </b> 
+          </h5>
+          En el portal web institucional www.vamosaleer.co se proporcionan noticias educativas y culturales de actualidad y artículos sobre los géneros, autores y obras más importantes, para informar, motivar y orientar la lectura. También está disponible la Biblioteca Digital Familiar con 15.000 obras en 5 idiomas (español, inglés, francés, portugués e italiano), para leer on line o descargar al dispositivo del usuario,y tenerlas disponibles en todo momento y lugar sin conexión a internet. Mensualmente, se adicionan 50 nuevas obras a la colección, 600 nuevos libros al año. <br />
+
+          Para promover la lectura, LEO ha desarrollado dos herramientas adicionales: <br />
+
+          •	Bibliomobil: una APP que los usuarios pueden descargar a su celular, PC o tableta, y acceder a la colección de 15.000 obras que están almacenadas en la nube. Las obras se pueden leer on line o descargar al dispositivo del socio. La descarga de la APP es gratuita para los socios logeados. <br />
+
+          •	Biblio-Tablet: aplicación a través de la cual la biblioteca digital y sus 15.000 obras se graban en la memoria del celular o tableta del usuario, para su consulta sin conexión a internet. Herramienta diseñada para servir a las zonas rurales y municipios apartados con limitaciones de conectividad web. La descarga de la aplicación es gratuita para los socios logeados.
+
+          <p>
+          <h5 id="titulo" align="center"> <b>2. Promoción de la escritura<br />
+          </b> 
+          </h5>
+          Escribir es uno de los retos más importantes para las personas. Es un acto creativo y propositivo, que permite dar a conocer las ideas y creaciones, y contribuir a la expansión del conocimiento y el patrimonio literario universal. Para ello, el portal web institucional www.vamosaleer.co permite a los socios crear su perfil de escritor y publicar sus obras para ser visibles por los demás socios y por personas de todo el mundo. Pueden ser obras gratuitas o comerciales. Este es un servicio gratuito para los socios logeados.
+
+          </p>
+          <p>
+          <h5 id="titulo" align="center">  <b>3. Promoción comercial de los autores LEO<br />
+          </b> 
+          </h5>
+          A través de la tienda www.libreria.clubleo.co, la asociación permite que gratuitamente los socios puedan exponer y comercializar las obras de su autoría entre la comunidad LEO del país y el mundo. Cada socio es el responsable de toda la gestión comercial, conforme a las normas legales sobre la materia.
+
+          </p>
+          <br />
+          <br />
+          <h3 id="titulo" align="center"> <b>LEO <br />
+          Una gran comunidad mundial comprometida con la construcción <br />
+          de una sociedad más educada y culta
+
+          </b> 
+          </h3>
+          <br />
 
 
-              <br />
-              <h5 align="center" id="rojo"><b>Quiénes somos</b></h5>
-              <p >El <b>Grupo Empresarial Mingga -GEM-</b> es un conglomerado de empresas que producen y comercializan bienes y servicios para satisfacer con calidad y precio competitivo las necesidades de las personas en el hogar y las diferentes actividades que desarrollan.</p>
 
-              <br />
-
-              <h5 align="center" id="rojo"><b>Nuestra Estrategia de Crecimiento: clientes no, socios</b></h5>
-              <p>Para hacer del proceso de compra de bienes y servicios un gana-gana, GEM propone a sus clientes un gran pacto: pasar de ser compradores ocasionales, para convertirse en socios, que contribuyen al crecimiento de la empresa, y tienen derecho a participar en los beneficios que genera la actividad comercial, <br />
               
-              <h5 align="center"><b>Nuestro lema : <br />
-              compre lo que necesita, pero siempre ganando
-              </b></h5>
-              </p>
-              <p>Como medio para hacer realidad este pacto, <b>GEM</b> ha creado el <b>Programa de Referidos</b>, una alianza estratégica entre nuestras empresas y los clientes a los que invitamos a ser socios, con lo cual pueden obtener ingresos e importantes beneficios de por vida, realizando un trabajo muy sencillo y rápido, sin tener que invertir ni un solo peso.</p>
-
-              <br />
-
-              <h5 align="center" id="rojo"><b>Qué debemos hacer</b></h5>
-              <p>
-              Para acceder a los beneficios del Programa de Referidos, las personas deben hacer solo 3 cosas: <br />
-
-              <b>a. Vincularse gratuitamente</b>, diligenciando el formulario a través de internet. <br />
-
-              <b>b. Comprar los bienes y servicios que requieran</b>, a través de <b>GEM</b>. No existen consumos ni metas obligatorias. Solo las compras normales que ya vienen realizando para el hogar y sus diferentes actividades.  <br />
-
-              <b>c. Invitar a otras personas a vincularse al Programa de Referidos</b>, también gratuitamente (familiares, vecinos, compañeros de estudio y trabajo, etc). 
-
-              </p>
-
-              <p>
-              <b>No hay que hacer nada más. Es un trabajo fácil y sencillo que cualquier persona puede realizar</b>, que beneficiará a <b>GEM</b> y reportará a cada socio ingresos y beneficios permanentes.
-              </p>
-
-
-              <br />
-              <div className="imagenesTamAb2">
-                <img align="center"
-                className="d-block w-100"
-                height="300"
-                src={nosotros2}
-                alt="..."
-                />
-                </div> <br />
-
               
-              <h4 align="center" id="colorred"><b> Somos una comunidad de ganadores: <br />
-              obtenemos ingresos de por vida, solo con nuestras compras <br />
-              y las de nuestros invitados
-              </b></h4>
 
-              <br />
-              <h5 align="center" id="rojo"><b>Quiénes pueden ser socios</b></h5>
-              <p>
-              Libre y gratuitamente, pueden participar en el <b>Programa de Referidos:</b> <br />
-
-              • Las personas mayores de 14 años <br />
-              • Las empresas legalmente constituidas <br />
-              • Las organizaciones sociales sin ánimo de lucro y del sector solidario
-
-              </p>
-
-              <br />
-
-              <div className="imagenesTamAb3">
-                <img align="center"
-                className="d-block w-180"
-                height="270"
-                src={nosotros3}
-                alt="..."
-                />
-                </div>
-                <br />
-
-              <h5 align="center" id="rojo"><b>MISIÓN</b></h5>
-              <p>El <b>Programa de Referidos</b> es una oportunidad para que las personas y empresas consumidoras de bienes y servicios puedan establecer una relación de beneficio mutuo a largo plazo con el <b>Grupo Empresarial Mingga</b>, realizar sus compras normales en condiciones favorables y obtener ingresos permanentes que mejoren la capacidad de compra y calidad de vida.</p>
-              <p>Para ello, operamos como una gran comunidad virtual de compradores con cobertura nacional y mundial, que permite la comercialización de bienes y servicios en mejores condiciones de acceso y bajo costo, lo cual beneficia tanto a los productores como a los consumidores.</p>
-              <br />
-              
-              <h5 align="center" id="rojo"><b>ZEN DE MINGGA: NUESTRA FILOSOFÍA</b></h5>
-              <p>
-              ✓ <b>Es mejor ser socios que clientes</b>, apoyar el crecimiento de la empresa y obtener beneficios de por vida. <br />
-              ✓ Las <b>personas y el mejoramiento de su calidad de vida son nuestra misión</b>. <br />
-              ✓ Inversión 0%, Beneficios 100% de por vida, es nuestra fórmula. <br />
-              ✓ <b>Mingga</b> es un escenario de <b>oportunidades para todos</b>. <br />
-              ✓ En donde estemos, apoyamos la producción propia, para coadyuvar al <b>empleo y el desarrollo</b> de cada localidad, región y país. <br />
-              ✓ La igualdad de oportunidades no es un objetivo: debe ser real. <br />
-              ✓ Todas las operaciones en Mingga deben ser sencillas, fáciles y rápidas. <br />
-              ✓ Todo debe hacerse en tiempo real.
-
-              </p>
-
-              
 
               </div>
-              </div>  
-
-              <br />
-              
-              
-
-
-              
-     <br />
-     <br />
-     <Contacto></Contacto>
-
-
               
              
     </div>

@@ -1,3 +1,4 @@
+
 .imagenesTam{
     width: 100%;
     max-width: 800px;
@@ -18,3 +19,8 @@
     align-items: center;
 
 }
+
+#padding{
+    padding-left:3%;
+    padding-right: 3%;
+  }

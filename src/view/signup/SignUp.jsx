@@ -1031,10 +1031,8 @@ export default function SignUp() {
                 </form>
             </div>
             }
-            <br />
         <br />
-        <br />
-        <Contacto></Contacto>
+        
     </div>
     )
 }
