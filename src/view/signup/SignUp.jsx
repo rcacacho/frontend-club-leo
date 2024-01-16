@@ -605,7 +605,7 @@ export default function SignUp() {
             </nav>
             {loading? <Spinner animation="grow" variant="info" />:
             <div className="container-fluid"  id="registro">
-                <h1>Registrate gratis</h1>
+                <h1>Vinculate como socio del club mundial de lectura</h1>
 
                 <br/>
                 <br/>
@@ -614,7 +614,7 @@ export default function SignUp() {
 
                         {errors.RoleId ? <span className='textError'>{errors.RoleId}</span> : <></>}
                     <div >
-                    <label className="l-01"> <h5>Tipo de vinculación</h5></label>
+                    <label className="l-01"> <h5>Tipo de socio</h5></label>
 
                     <div className="form-floating mb-3">
                         <select name='select'
@@ -940,7 +940,7 @@ export default function SignUp() {
                 </div>:<></>}
 
                 <div>
-                <label className="l-01"> <h5>Datos de vinculación a minggaRMB</h5></label>
+                <label className="l-01"> <h5>Datos de vinculación a Club Leo</h5></label>
                 <div  className="form-floating mb-3">
                         {/* <input
                         className="form-control"
@@ -1014,7 +1014,7 @@ export default function SignUp() {
 
                     <div className="container text-center">
                     Al hacer clic en <b>Registrarse</b>, aceptas los
-                    <a href="/" className="m-0"> Términos y condiciones de uso</a> de Mingga.
+                    <a href="/" className="m-0"> Términos y condiciones de uso</a> de Club Leo.
                     </div>
                     <br />
 
