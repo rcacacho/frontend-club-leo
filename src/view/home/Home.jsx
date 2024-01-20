@@ -8,8 +8,8 @@ import "./Home.css"
 
 
 import React, { useEffect } from 'react'
-import { getCategories, getCountries} from '../../services/registerService';
-import { useDispatch, useSelector } from 'react-redux';
+import { getCountries} from '../../services/registerService';
+import { useDispatch } from 'react-redux';
 import NavBar from '../navBar/NavBar';
 import Comprar from '../comprar/Comprar';
 import Vendedores from '../vendedores/Vendedores';
@@ -24,11 +24,11 @@ import { getCountry } from '../../stateManagement/actions/getCities';
 export default function Home() {
 
     const dispatch = useDispatch()
-    const id= useSelector(state=>state.IDCityReducer?.id)
+    //const id= useSelector(state=>state.IDCityReducer?.id)
 
     async function countries (){
         const [categories, ofertas,country] = await Promise.all([
-            getCategories(),
+            //getCategories(),
             getOfertsByCity(id),
             getCountries(),
         ]

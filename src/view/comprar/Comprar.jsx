@@ -17,7 +17,7 @@ export default function Comprar() {
   // console.log(ofertasCity);
   const loadingOferts = useSelector(state=> state.ofertsCategoriesReducer.loading)
   const loadingCategories = useSelector(state=> state.categoriesReducer.loading)
-  const id= useSelector(state=>state.IDCityReducer?.id)
+  //const id= useSelector(state=>state.IDCityReducer?.id)
   // async function offersByCity(id){
   //   const info = await getOfertsByCity(id)
   //   // setOffer(info);

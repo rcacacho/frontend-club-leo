@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import logonegro from '../../assets/png/logoempresarialnegro.png'
-import { useSelector } from 'react-redux';
-import { getCategoryService } from '../../services/ofertsCategoriesServices';
+//import { useSelector } from 'react-redux';
+//import { getCategoryService } from '../../services/ofertsCategoriesServices';
 // import "./Category.css"
 
 export default function Category() {
@@ -10,16 +10,16 @@ export default function Category() {
     const { name, id } = useParams();
     // const userInfo = useSelector(state=>state.infoUserReducer.user)
     // const token = useSelector(state=>state.infoUserReducer.token.token)
-    const idCity= useSelector(state=>state.IDCityReducer?.id)
+   // const idCity= useSelector(state=>state.IDCityReducer?.id)
     const [infoGet, setInfoGet] = useState([])
 
-    async function getInfoUser(){
-        const info = await getCategoryService(idCity, id)
-        setInfoGet(info.data)
-    }
+    //async function getInfoUser(){
+     //   const info = await getCategoryService(idCity, id)
+     //   setInfoGet(info.data)
+    //}
 
     useEffect(() => {
-        getInfoUser();
+       // getInfoUser();
         // eslint-disable-next-line
     }, []);
 
